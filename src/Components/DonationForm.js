@@ -3,10 +3,6 @@ import React from "react";
 const DonationForm = () => {
   return (
     <form>
-      <h2>Raised $441 of $1000</h2>
-      <label for="goal"></label>
-      <progress id="goal" value="441" max="1000">44.10%</progress>
-
       <label>Name</label>
       <input type="text" />
 
